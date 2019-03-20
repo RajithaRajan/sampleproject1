@@ -9,7 +9,7 @@ export default class profilescreen extends Component {
   render() {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center',backgroundColor:'green' }}>
-        <Text style={{ marginTop: 50, fontSize: 25 }}>personal details!</Text>
+        <Text style={{ marginTop: 50, fontSize: 30 }}>personal details!</Text>
         <Image source={{uri: 'https://cdn0.iconfinder.com/data/icons/windows-and-metro/128/13-128.png'}} 
                 style={{width: 100, height: 100, resizeMode: 'contain'}}/>
         
